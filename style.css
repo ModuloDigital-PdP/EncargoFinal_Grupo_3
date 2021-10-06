@@ -47,12 +47,12 @@ p.lead {
 }
 
 a {
-    color: var(--tercercolor);
+    color: var(#d6d4d4);
     text-decoration: underline;
 }
 
 a:hover {
-    color: var(--colorclaro);
+    color: var(214, 212, 212);
     text-decoration: none;
 }
 
@@ -72,12 +72,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--segundocolor);
+    background-color: var(#ed715e);
     background-image: url("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var(214, 212, 212);
 }
 
 @media (min-width: 576px) {
@@ -115,22 +115,22 @@ main {
 }
 
 aside {
-    background: var(--tercercolor);
-    color: var(--coloroscuro);
+    background: var(#d6d4d4);
+    color: var(34, 37, 57);
 }
 
 footer {
-    color: var(--segundocolor);
+    color: var(#ed715e);
 }
 
 footer a {
     text-decoration: none;
-    color: var(--segundocolor);
+    color: var(#ed715e);
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--coloroscuro);
+    color: var(34, 37, 57);
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
@@ -141,7 +141,7 @@ footer a:hover {
 
 .card,
 .card-img-top {
-    background: var(--colorclaro);
+    background: var(214, 212, 212, 1);
     border: none;
     border-radius: 0 0;
 }
@@ -151,7 +151,7 @@ footer a:hover {
 .modal-content {
     border: none;
     border-radius: 0 0;
-    color: var(--coloroscuro);
+    color: var(34, 37, 57);
 }
 
 .modal-header h4.modal-title {
