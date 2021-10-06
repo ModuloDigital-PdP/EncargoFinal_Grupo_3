@@ -31,7 +31,7 @@ body {
 }
 
 strong {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 h1,
@@ -42,8 +42,8 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Modak";
-    font-weight: 800;
+    font-family: "Gorditas";
+    font-weight: 700;
 }
 
 a {
