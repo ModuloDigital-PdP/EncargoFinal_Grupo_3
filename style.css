@@ -1,30 +1,27 @@
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
-
 Sus tipografías deberían coincidir con los utilizadas en el trabajo del módulo gráfico, 
 con ajustes de disponibilidad en https://fonts.google.com/
-
 Sus colores también deberían coincidir con los utilizados en trabajo del módulo gráfico, 
 con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/ 
-
 --------------------------------------------------------------------------------------------- */
 
 /* cambien aquí sus tipografías, necesitan definir un par */
 
-@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400&family=Dela+Gothic+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Modak&family=Poppins:wght@200;400&display=swap');
 
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #222;
-    --segundocolor: #666; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #aaa; /* más luminoso y menos saturado que el primero */
-    --colorclaro: rgba(255, 255, 255, 0.9);
-    --coloroscuro: rgba(0, 0, 0, 0.9);
+    --primercolor: #d6d4d4;
+    --segundocolor: #222539; /* menos luminoso y más saturado que el primero */
+    --tercercolor: #ed715e; /* más luminoso y menos saturado que el primero */
+    --colorclaro: rgba(214, 212, 212, 1);
+    --coloroscuro: rgba(34, 37, 57, 1);
 }
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
-    font-family: "Andika New Basic", sans-serif;
+    font-family: "Poppins", regular;
     font-weight: 400;
     background: var(--segundocolor);
     color: var(--colorclaro);
@@ -42,13 +39,13 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Dela Gothic One", cursive;
+    font-family: "Modak", regular;
     font-weight: 400;
 }
 
 a {
     color: var(--tercercolor);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
@@ -62,13 +59,11 @@ header div.container {
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
-
 Noten que a continuación se define varias veces background-image para el header
 la primera se muestra cuando la pantalla es pequeña (menos de 576px de ancho)
 la segunda se muestra cuando la pantalla tiene como mínimo 576px de ancho
 la tercera se muestra cuando la pantalla tiene como mínimo 992px de ancho
 en todos los casos la imagen debería pesar menos de 300kb
-
 --------------------------------------------------------------------------------------------- */
 
 header {
@@ -94,11 +89,9 @@ header {
 
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
-
 ¡Atención con los colores en la imagen que se muestra al final de la sección principal (main)!
 Consideren usar en su parte superior el --segundocolor y en su parte inferior el --tercercolor
 Con tales colores, la imagen sirve de transición a la parte que ofrece más información (aside)
-
 --------------------------------------------------------------------------------------------- */
 
 main {
@@ -134,9 +127,7 @@ footer a:hover {
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
-
                             No es necesario modificar lo que sigue
-
 --------------------------------------------------------------------------------------------- */
 
 .card,
