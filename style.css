@@ -25,7 +25,7 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: "Poppins";
-    font-weight: 400;
+    font-weight: 800;
     background: var(--segundocolor);
     color: var(--colorclaro);
 }
