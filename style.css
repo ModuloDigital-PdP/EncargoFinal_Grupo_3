@@ -43,7 +43,7 @@ h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
     font-family: "Modak";
-    font-weight: 800;
+    font-weight: 400;
 }
 
 a {
