@@ -27,7 +27,7 @@ body {
     font-family: "Poppins";
     font-weight: 400;
     background: var(--segundocolor);
-    color: var(#222539);
+    color: var(--tercercolor);
 }
 
 strong {
