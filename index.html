@@ -204,7 +204,7 @@
             var nuestroGrafico = new Chart(ctx, {
                 type: "polarArea",
                 data: {
-                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
+                    labels: ["Muertes", "Viven con", "Lo contrajeron", "Infectados desde el inicio", "Muertos desde el inicio"],
                     datasets: [
                         {
                             label: "# of Votes",
@@ -215,15 +215,6 @@
                     ],
                 },
                 options: { 
-                    plugins: {
-                        title: { text: "VIH durante el 2017", display: true },
-                        subtitle: {
-                            text: "Fuente: ",
-                            display: true,
-                            position: "bottom",
-                            align: "start"
-                        },
-                    },    
                     scales: {
                         y: {
                             beginAtZero: true,
