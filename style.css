@@ -10,7 +10,7 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 /* cambien aquí sus tipografías, necesitan definir un par */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Titan+One&display=swap');
+@import url ('https://fonts.googleapis.com/css2?family=Poppins&family=Titan+One&display=swap');
 
 /* cambien aquí sus colores, necesitan definir tres */
 
@@ -18,16 +18,16 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
     --primercolor: #ed715e;
     --segundocolor: #222539; /* menos luminoso y más saturado que el primero */
     --tercercolor: #d6d4d4; /* más luminoso y menos saturado que el primero */
-    --colorclaro: rgba(255, 255, 255, 0.9);
-    --coloroscuro: rgba(0, 0, 0, 0.9);
+    --colorclaro: rgba (255, 255, 255, 0.9);
+    --coloroscuro: rgba (0, 0, 0, 0.9);
 }
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
-    font-family: "Poppins";
+    font-family: "Poppins" , sans-serif;
     font-weight: 400;
-    background: var(--segundocolor);
-    color: var(--colorclaro);
+    background: var (--segundocolor);
+    color: var (--colorclaro);
 }
 
 strong {
@@ -42,7 +42,7 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Titan One";
+    font-family: "Titan One" , cursive;
     font-weight: 400;
 }
 
@@ -72,23 +72,23 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--segundocolor);
-    background-image: url("img/relacion-3x4.png");
+    background-color: var (--segundocolor);
+    background-image: url ("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var (--colorclaro);
 }
 
 @media (min-width: 576px) {
     header {
-        background-image: url("img/relacion-4x3.png");
+        background-image: url ("img/relacion-4x3.png");
     }
 }
 
 @media (min-width: 992px) {
     header {
-        background-image: url("img/relacion-21x9.png");
+        background-image: url ("img/relacion-21x9.png");
     }
 }
 
@@ -115,22 +115,22 @@ main {
 }
 
 aside {
-    background: var(--tercercolor);
-    color: var(--coloroscuro);
+    background: var (--tercercolor);
+    color: var (--coloroscuro);
 }
 
 footer {
-    color: var(--segundocolor);
+    color: var (--segundocolor);
 }
 
 footer a {
     text-decoration: none;
-    color: var(--segundocolor);
+    color: var (--segundocolor);
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--coloroscuro);
+    color: var (--coloroscuro);
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
@@ -141,7 +141,7 @@ footer a:hover {
 
 .card,
 .card-img-top {
-    background: var(--colorclaro);
+    background: var (--colorclaro);
     border: none;
     border-radius: 0 0;
 }
@@ -151,7 +151,7 @@ footer a:hover {
 .modal-content {
     border: none;
     border-radius: 0 0;
-    color: var(--coloroscuro);
+    color: var (--coloroscuro);
 }
 
 .modal-header h4.modal-title {
