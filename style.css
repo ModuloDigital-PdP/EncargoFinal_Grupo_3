@@ -26,8 +26,8 @@ body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: "Poppins";
     font-weight: 400;
-    background: var(#222539);
-    color: var(#d6d4d4);
+    background: var(--segundocolor);
+    color: var(#222539);
 }
 
 strong {
@@ -47,7 +47,7 @@ p.lead {
 }
 
 a {
-    color: var(#d6d4d4);
+    color: var(--tercercolor);
     text-decoration: none;
 }
 
@@ -72,12 +72,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(#222539);
+    background-color: var(--segundocolor);
     background-image: url ("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(34, 37, 57);
+    color: var(#222539);
 }
 
 @media (min-width: 576px) {
@@ -115,8 +115,8 @@ main {
 }
 
 aside {
-    background: var(--tercercolor);
-    color: var(--coloroscuro);
+    background: var(--segundocolor);
+    color: var(--tercercolor);
 }
 
 footer {
@@ -125,12 +125,12 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: var(--segundocolor);
+    color: var(--tercercolor);
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--coloroscuro);
+    color: var(--tercercolor);
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
