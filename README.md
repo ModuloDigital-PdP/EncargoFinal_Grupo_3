@@ -9,3 +9,5 @@ Dentro de sus logros destacan el aumento de la esperanza de vida y la disminuici
 Sin embargo, la desigualdad en el acceso y calidad de la salud siguen siendo un tema de gran índole mundial, pues la mitad de la población global carece de acceso a estos servicios esenciales, sumado a más de 100 millones de personas que se encuentran en pobreza extrema debido a los gastos en salud.
 
 Han sido muchos logros, pero aún se necesitan esfuerzos para cumplir con otros objetivos, como erradicar una gran cantidad de enfermedades y abordar problemas de salud mundial. Mediante esta página web, buscamos informar sobre este objetivo y promover en las personas una emoción de cambio.
+
+https://modulodigital-pdp.github.io/EncargoFinal_Grupo_3/
