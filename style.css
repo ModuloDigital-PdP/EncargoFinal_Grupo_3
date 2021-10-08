@@ -116,7 +116,7 @@ main {
 
 aside {
     background: var(--segundocolor);
-    color: var(--tercercolor);
+    color: var(--segundocolor);
 }
 
 footer {
