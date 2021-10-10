@@ -82,13 +82,13 @@ header {
 
 @media (min-width: 576px) {
     header {
-        background-image: url("img/portada-4x3.png");
+        background-image: url("img/relacion-4x3.png");
     }
 }
 
 @media (min-width: 992px) {
     header {
-        background-image: url("img/portada-21x9.png");
+        background-image: url("img/relacion-21x9.png");
     }
 }
 
